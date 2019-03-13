@@ -263,7 +263,7 @@
 .noUi-target,
 .noUi-target * {
   -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
@@ -3902,13 +3902,13 @@ body {
   .navbar a {
     vertical-align: middle; }
     .navbar a:not(.btn):not(.dropdown-item) {
-      color: #FFFFFF; }
+      color: rgb(3, 3, 3); }
   .navbar p {
     display: inline-block;
     margin: 0;
     line-height: 1.8em;
     font-size: 1em;
-    font-weight: 400; }
+    font-weight: 550; }
   .navbar.navbar-absolute {
     position: absolute;
     width: 100%;
@@ -3969,7 +3969,8 @@ body {
     font-size: 0.8571em;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    line-height: 1.625rem; }
+    line-height: 1.625rem;
+    font-weight: 550; }
   .navbar .navbar-toggler {
     width: 37px;
     height: 27px;
